@@ -1,5 +1,5 @@
 // URL to fetch upstream assets from
-const ORIGIN_URL = 'https://github.com/ProtonAOSP'
+const ORIGIN_URL = 'https://github.com/pa-vayu'
 
 // Whether to cache assets from GitHub
 // Disable to conserve Workers cache quota
@@ -10,10 +10,9 @@ const CACHE_TTL = 5259488 // 2 months
 
 // Regex patterns for allowed CORS origins
 const CORS_ALLOWED_ORIGINS = [
-  /^protonaosp\.org$/,
-  /^android-webinstall-kdrag0n\.vercel\.app$/,
-  /^android-webinstall-git-[a-z0-9\-_/]-kdrag0n\.vercel\.app$/,
-  /^android-webinstall-[a-z0-9]+-kdrag0n\.vercel\.app$/,
+  /^android-webinstall-foxtrot47\.vercel\.app$/,
+  /^android-webinstall-git-[a-z0-9\-_/]-foxtrot47\.vercel\.app$/,
+  /^android-webinstall-[a-z0-9]+-foxtrot47\.vercel\.app$/,
 ]
 
 class RequestError extends Error {
